@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tidb数据库">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="INFORMATION_SCHEMA">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="3" parent="1" name="PERFORMANCE_SCHEMA">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="4" parent="1" name="alexshen">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="5" parent="1" name="baixz">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="6" parent="1" name="caixc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="7" parent="1" name="caoweid">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="8" parent="1" name="chenningc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="9" parent="1" name="chensongb">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="10" parent="1" name="data_test">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="11" parent="1" name="dataset">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="12" parent="1" name="dataset_test">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="13" parent="1" name="demo">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="14" parent="1" name="donggc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="15" parent="1" name="dufang">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="16" parent="1" name="fangym002">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="17" parent="1" name="fangym004">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="18" parent="1" name="fangym005">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="19" parent="1" name="fangymits">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="20" parent="1" name="fannl">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="21" parent="1" name="fanza">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="22" parent="1" name="fengzwa">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="23" parent="1" name="frame7">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="24" parent="1" name="huangdg">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="25" parent="1" name="husonga">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="26" parent="1" name="jiangweil">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="27" parent="1" name="jiayjc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="28" parent="1" name="jinyha">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="29" parent="1" name="kafkames">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="30" parent="1" name="liaoyuana">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="31" parent="1" name="lity">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="32" parent="1" name="liuhze">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="33" parent="1" name="liuxyai">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="34" parent="1" name="liyuank">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="35" parent="1" name="mojja">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="36" parent="1" name="mydata">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="37" parent="1" name="mysql">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="38" parent="1" name="mytest">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="39" parent="1" name="penghj">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="40" parent="1" name="quyangc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="41" parent="1" name="renxlc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="42" parent="1" name="streamsets">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="43" parent="1" name="test">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="44" parent="1" name="test1">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="45" parent="1" name="test_TiDB0">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="46" parent="1" name="test_TiDB1">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="47" parent="1" name="test_TiDB2">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="48" parent="1" name="test_TiDB3">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="49" parent="1" name="test_TiDB4">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="50" parent="1" name="test_TiDB5">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="51" parent="1" name="test_TiDB6">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="52" parent="1" name="testuser">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="53" parent="1" name="tidb_loader">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="54" parent="1" name="wangdany">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="55" parent="1" name="wangmqe">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="56" parent="1" name="wangxq">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="57" parent="1" name="webMessage">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="58" parent="1" name="weiyg">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="59" parent="1" name="wennan">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="60" parent="1" name="wujja">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="61" parent="1" name="wuyqf">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="62" parent="1" name="wuzk">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="63" parent="1" name="xiapp">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="64" parent="1" name="xuejing">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="65" parent="1" name="xueleic">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="66" parent="1" name="xuym">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="67" parent="1" name="yangkaid">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="68" parent="1" name="yanglud">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="69" parent="1" name="yaodia">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="70" parent="1" name="yaoqiangc">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="71" parent="1" name="yuxbb">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="72" parent="1" name="yuyanb">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="73" parent="1" name="zhangyangac">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="74" parent="1" name="zhaoyxj">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="75" parent="1" name="zhaozyn">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="76" parent="1" name="zhoujingb">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="77" parent="1" name="zhoulm">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="78" parent="1" name="zhoupeia">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="79" parent="1" name="zhuangxy">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="80" parent="1" name="zoufja">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <collation id="81" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <table id="86" parent="65" name="person">
+      <Engine>InnoDB</Engine>
+    </table>
+  </database-model>
+</dataSource>
