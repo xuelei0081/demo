@@ -1,7 +1,5 @@
 package com.demo.controller;
 
-import java.util.*;
-
 /**
  * leetcode算法题
  */
@@ -13,51 +11,28 @@ public class LeetCode {
      * @return
      */
     public int lengthOfLongestSubstring(String s) {
-        if(s==null){
-            return 0;
-        }
-        if(s.length()<2){
-            return  s.length();
-        }
-        int flag = 0;
-        // 先查找一个字符串所有的子串
-        Map<String,Integer> map = new HashMap<>();
-        for (int i=0;i<s.length();i++){
-            for(int j=i+1;j<s.length()+1;j++){
-                map.put(s.substring(i,j),j-i);
+
+        if(s.length()<=1)return s.length();
+        int countMax=1;
+        int count=1;
+        int length = s.length();
+        for(int i=1;i<length;i++){
+            // 如果下一个字母和以前的不重复则连续的子串长度加1
+            if(!s.substring(i-count, i).contains(s.substring(i,i+1))){
+                count ++;
+                // 记录最大子串长度
+                countMax = countMax>count?countMax:count;
+            }else{// 如果下一个字母包含在以前判断的子串中,则往前移动一位再进行判断,
+                i --;
+                count --;
             }
         }
 
-        for(String key : map.keySet()){
-
-        }
-
-
-        List<String> list = new ArrayList<>();
-        // 再找出没有重复的子串
-        List<String> dList = new ArrayList<>();
-        for(String content : list){
-            char[] chars = content.toCharArray();
-            Set<Character> set = new LinkedHashSet<>();
-            for(char ch : chars){
-                set.add(ch);
-            }
-            if(set.size() == chars.length){
-                dList.add(content);
-            }
-        }
-
-
-
-        // 找出不重复子串中最大的
-        for(String string : dList){
-            if(string.length() > flag){
-                flag = string.length();
-            }
-        }
-
-        return flag;
+        return countMax;
     }
 
-
+    public static void main(String[] args) {
+        LeetCode leetCode = new LeetCode();
+        System.out.print(leetCode.lengthOfLongestSubstring("absad"));
+    }
 }
